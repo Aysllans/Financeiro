@@ -1,14 +1,16 @@
-import Contas from "@/components/Contas";
-import Salario from "@/components/Salario";
-import Dashboard from "@/components/Dashboard";
+// app/page.tsx
+import Contas from '../components/contas';
+import Salario from '../components/salario';
+import Dashboard from '../components/dashboard';
 
-export default function Home() {
+const Page = () => {
   return (
     <div>
-      <h1>Gestão Financeira</h1>
       <Salario />
       <Contas />
       <Dashboard />
     </div>
   );
-}
+};
+
+export default Page;

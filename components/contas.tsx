@@ -1,5 +1,6 @@
 "use client";
-import { useFinanceiroStore } from "@/store/financeiroStore";
+import { useFinanceiroStore } from "../store/financerioStore";
+
 import { useState } from "react";
 
 const Contas = () => {
